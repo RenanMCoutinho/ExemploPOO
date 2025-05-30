@@ -9,11 +9,13 @@ namespace ExemploPOO.Models
     internal class Professor : Pessoa
     {
         public decimal salario { get; set; }
-
-
-        public void apresentarProfessor()
+        
+        public override void Apresentar()
         {
-            Console.WriteLine($"Olá meu nome é {Nome}, tenho {Idade} anos e meu salário é {salario.ToString("C")}!");
+            //base.Apresentar();
+            Console.WriteLine($"Olá meu nome é {Nome}, tenho {Idade} anos e meu salário é {salario:C}!");
         }
+
+
     }
 }

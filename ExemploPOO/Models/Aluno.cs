@@ -10,9 +10,10 @@ namespace ExemploPOO.Models
     {
         public double nota { get; set; }
 
-        public void apresentarAluno()
+        public override void Apresentar()
         {
-            Console.WriteLine($"Olá meu nome é {Nome}, tenho {Idade} anos e minha nota é {nota.ToString("F2")}!");
+            //base.Apresentar();
+            Console.WriteLine($"Olá meu nome é {Nome}, tenho {Idade} anos e minha nota é {nota}!");
         }
 
     }

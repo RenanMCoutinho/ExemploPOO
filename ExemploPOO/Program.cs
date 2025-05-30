@@ -11,11 +11,11 @@ pessoa.Apresentar();
 
 Aluno aluno1 = new Aluno();
 
-aluno1.Nome = "Renan";
-aluno1.Idade = 30;
+aluno1.Nome = "Junin";
+aluno1.Idade = 20;
 aluno1.nota = 10;
 
-aluno1.apresentarAluno();
+aluno1.Apresentar();
 
 Professor professor1 = new Professor();
 
@@ -23,7 +23,7 @@ professor1.Nome = "João";
 professor1.Idade = 40;
 professor1.salario = 5000;
 
-professor1.apresentarProfessor();
+professor1.Apresentar();
 
 
 
