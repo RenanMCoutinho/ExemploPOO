@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    internal class Aluno : Pessoa
+    internal class Diretor : Professor
     {
-        public Aluno(string nome) : base(nome)
+        public Diretor(string nome) : base(nome)
         {
-        }
-        public double nota { get; set; }
+        }  
 
         public override void Apresentar()
         {
             //base.Apresentar();
-            Console.WriteLine($"Olá meu nome é {Nome}, tenho {Idade} anos e minha nota é {nota}!");
+            Console.WriteLine("Diretor");
         }
+
 
     }
 }
